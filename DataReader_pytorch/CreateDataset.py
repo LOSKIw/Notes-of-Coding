@@ -27,9 +27,3 @@ class cDataset(torch.utils.data.Dataset):
     def __len__(self):
         return len(self.img)
 
-
-'''
-test=cDataset(root="D:\吴昊轩\编程相关\竞赛\AI研习社\胸腔X光肺炎检测",datatxt="Data.txt",LabelDic={'NORMAL': 0, 'PNEUMONIA': 1})
-img,_=test.__getitem__(0)
-img.show()
-'''
